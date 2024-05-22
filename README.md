@@ -2,8 +2,8 @@
 Chan Nyein Zin, 
 Adrian Harischand
 
-# Defensive Maneuvers in Boxing
-
+## Project Title
+Defensive Maneuvers in Boxing
 
 ## Overview
 **Defensive Maneuvers in Boxing** is an interactive web application to teach defensive boxing maneuvers.
