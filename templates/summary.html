@@ -1,0 +1,48 @@
+{% extends "landing_page.html" %}
+{% block content %}
+<script type="text/javascript" src="{{ url_for('static', filename = 'summary.js') }}"></script>
+<script>
+    let score = {{quizScore|tojson}};
+    let data = {{quizData|tojson}};
+    console.log("score in sum : " ,score)
+</script>
+<div class ="row s_row">
+    <div class = "col s "> 
+        <div class="row ">
+            <div class="col-12 text-center s_top d-flex align-items-center justify-content-between">
+                <h1>Summary</h1>
+                <div id="score" class="score_board  "></div>
+            </div>
+            <div class="col-12 q_box" id="box1">
+                <ul class="list-unstyled"  id="q1">
+                    
+                </ul>
+            </div>
+            <div class="col-12 q_box" id="box2">
+                <ul class="list-unstyled" id="q2">
+                    
+                </ul>
+            </div>
+            <div class="col-12 q_box" id="box3">
+                <ul class="list-unstyled" id="q3">
+                    
+                </ul>
+            </div> 
+            <div class="col-12 q_box" id="box4">
+                <ul class="list-unstyled" id="q4">
+                    
+                </ul>
+            </div>
+            <div class="col-12 q_box " id="box5">
+                <ul class="list-unstyled" id="q5">
+                    
+                </ul>
+            </div>
+            
+            </div>
+
+    </div>
+</div>
+
+
+{% endblock %}

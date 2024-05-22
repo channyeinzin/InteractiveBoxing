@@ -1,0 +1,20 @@
+{% extends "landing_page.html" %}
+{% block content %}
+<script src="{{ url_for('static', filename='lesson.js') }}"></script>
+<script>
+    let stance = {{ stance | tojson }};
+</script>
+
+<div class="container mt-5">
+    <div class="row" id="lesson_content">
+        <!-- Stance and step content will be inserted here by JavaScript -->
+    </div>
+    <div class="row">
+        <div class="col-12 mt-3">
+            <button id="prev_step" class="btn btn-light" style="display: none;">Previous</button>
+            <button id="next_step" class="btn btn-light" style="display: none;">Next</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

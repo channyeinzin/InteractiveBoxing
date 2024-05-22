@@ -1,0 +1,23 @@
+{% extends "landing_page.html" %}
+{% block content %}
+<script type="text/javascript" src="{{ url_for('static', filename = 'quiz_content.js') }}"></script>
+<script>
+    let data = {{current_data|tojson}};
+    let quiz = {{quizData|tojson}}
+</script>
+<div class="c_row row d-flex align-items-center">
+    <div class="col  c d-flex justify-content-center align-items-center">
+<div class="row q_c_box" id="quiz_content">
+      
+<div class="col-12 d-flex flex-column" id="header_info"></div>
+<div class="col-12 " id="choices_" ></div>
+
+</div>
+    </div>
+    
+</div>
+
+
+
+
+{% endblock %}

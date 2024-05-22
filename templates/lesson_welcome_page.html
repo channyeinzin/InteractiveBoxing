@@ -1,0 +1,41 @@
+{% extends "landing_page.html" %}
+{% block content %}
+
+
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'home.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'lesson.js') }}"></script>
+<div class="container-fluid mt-5  d-flex  flex-column align-items-center justify-content-center">
+    <div class="row"> 
+    </div>
+   
+
+
+    <div class="row l_w_p d-flex justify-content-center text-center">
+        <div class="col-12 d-flex flex-column justify-content-center">
+            <h1>Defensive Maneuvers Boxing Lesson</h1>
+            <p class="h4">Please select below</p>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-6 text-center d-flex flex-column justify-content-center align-items-center">
+                <img src="../static/images/orth_pic.png" alt="" class="ortho_p">
+                <a class="btn btn-outline-light btn_ortho" id="posting1_hover" data-toggle="tooltip" data-placement="top" title="right-handed boxer" href="{{ url_for('specific_lesson', stance_name='orthodox') }}">ORTHODOX</a>
+            </div>
+    
+            <div class="col-6 text-center d-flex flex-column justify-content-center align-items-center">
+                <img src="../static/images/south_pic.png" alt="" class="south_p">
+                <a class="btn btn-outline-light btn_ortho" id="posting2_hover" data-toggle="tooltip" data-placement="top" title="left-handed boxer" href="{{ url_for('specific_lesson', stance_name='southpaw') }}">SOUTHPAW</a>
+               
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="row" > <br> <br>
+    </div>
+
+</div>
+{% endblock %}
+

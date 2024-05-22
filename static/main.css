@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing_page_container{
+    height: 100vh;
+    background-color:#80808026;
+}
+.landing_page_container1{
+    height: 100vh;
+    background-color: white;
+    /*margin-top: 100px; */
+}
+.hamberger{
+    background-color: lightgray;
+}
+
+.nav_, .link_{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.w_w{
+    color: black;
+}
+.nav_{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+}
+.q_w_p{
+
+    height: 80vh;
+    width: 80%;
+    background-image: url('./images/quiz_page.jpeg');
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+
+}
+
+.h_w_p{
+    height: 80vh;
+    width: 80%;
+    background-image: url('./images/home.png');
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+}
+
+.l_w_p{
+    height: 83vh;
+    width: 80%;
+    background-image: url('./images/o_s_boxing.jpg');
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+    margin-top: 30px;
+}
+
+.h_top h1, .s_top h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.s_top{
+    margin-bottom: 30px;
+}
+.h_top p{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(88, 86, 86);
+}
+.btn_start{
+    background-color: white;
+    margin-left: 150px;
+    padding: 10px 20px;
+}
+/* .img_b{
+    box-shadow: 0 0 10px rgb(10, 125, 163);
+    border-radius: 10px;
+} */
+.ortho_p{
+    height: 60%;
+    width: 30%;
+}
+.south_p{
+    height: 58.9%;
+    width: 30%;
+}
+.btn_ortho{
+    margin-top: 10px;
+    width: 20%;
+}
+.btn_gs{
+    width: 10%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.q_c_box{
+
+    background-color: white;
+    /* box-shadow: 0 0 10px rgb(10, 125, 163); */
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+    border: 2px rgba(255, 255, 255, 0.65) solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+.q_box{
+    background-color: white;
+    /* box-shadow: 0 0 10px rgb(10, 125, 163); */
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+    border: 2px rgba(255, 255, 255, 0.65) solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.l_box{
+    background-color: white;
+    /* box-shadow: 0 0 10px rgb(10, 125, 163); */
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+    border: 2px rgba(255, 255, 255, 0.65) solid;
+    padding: 10px;
+    border-radius:  10px;
+}
+.m_q {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  color:gray;
+}
+.m_g{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+.my_list li{
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.q_c_base{
+    height: 100vh;
+}
+.c{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100vh;
+}
+
+.s{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.c_row {
+    background-color: #80808026;
+}
+
+.s_row{
+    background-color: #80808026;
+    height: 300vh;
+}
+
+.Incorrect{
+    font-weight: bold;
+    color:red;
+}
+.Correct{
+    color: rgb(61, 202, 61);
+    font-weight: bold;
+    
+}
+
+.score_b {
+    /* box-shadow: 0 0 10px rgb(10, 125, 163); */
+    box-shadow: 0 0 10px rgba(47, 48, 47, 0.991);
+    border: 1px rgb(10, 125, 163) solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(20, 126, 251);
+}
+
+.home-bg-color {
+    background-color: #80808026; /* Your chosen shade of blue */
+    padding: 0;
+    margin: 0;
+    min-height: 100vh; /* Use min-height to cover at least the whole viewport height */
+}
+
+.purpose{
+    margin-top: 10px;
+    text-align:left;
+    font-size: 20px;
+    color: rgb(93, 93, 93);
+    font-weight: 500;
+}
+.d_list{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}

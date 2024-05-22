@@ -1,0 +1,35 @@
+{% extends "landing_page.html" %}
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'home.js') }}"></script>
+<div class="container-fluid mt-5 d-flex  flex-column align-items-center">
+    <div class="row">
+        <div class="col-12 text-center h_top ">
+        <h1> Defensive Maneuvers in Boxing </h1>
+        <p>Explore the interactive learning experience on defensive maneuvers in boxing, 
+            where you'll discover essential techniques to defend yourself effectively in
+             the ring or in everyday situations while improving your reflexes, mobility,
+              and overall self-defense skills.</p>
+        <!-- <p>Sharpen your reflexes and self-defense with boxing techniques.</p> -->
+
+        </div>
+    </div>
+
+    <div class="row h_w_p d-flex justify-content-center">
+        <div class="col-12 text-center"> </div>
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <a class="btn btn-outline-secondary btn_start" href="{{ url_for('lesson_welcome')}}">Start Lesson</a>
+        </div>
+    </div>
+</div>
+<br>
+    
+
+
+   
+</div>
+
+
+{% endblock %}

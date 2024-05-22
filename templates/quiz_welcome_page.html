@@ -1,0 +1,37 @@
+{% extends "landing_page.html" %}
+{% block content %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- <div class="container-fluid row q_w_p d-flex justify-content-center"> -->
+<div class="row ">
+    <div class="col d-flex justify-content-center align-items-center">
+      <div class="row q_w_p ">
+<div class="col-12 d-flex flex-column justify-content-end text-center align-items-center">
+    <h1>Quiz Time</h1>
+    <h4>5 questions </h4>
+   
+</div>
+<div class="col-12  d-flex justify-content-end align-items-end">
+    <a class="btn btn-outline-secondary btn_gs" id="get_started" href="/quiz/1">Get Started</a>
+</div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- </div> -->
+<script>
+  $(document).ready(function () {
+  $('#landing_page_box').removeClass('landing_page_container')
+  $('#landing_page_box').addClass('landing_page_container1')
+  displayContent();
+  buttonState();
+  ifCheck();
+});
+</script>
+{% endblock %}
